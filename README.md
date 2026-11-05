@@ -44,6 +44,20 @@ Atidarykite paskelbtą svetainę. Viršuje galima perjungti administratoriaus / 
 | Suvestinės ir eksportas | Darbuotojų, vizitų, paslaugų suvestinės ir CSV su lietuviškų simbolių palaikymu |
 | Rolės | Atskira administratoriaus ir darbuotojo demonstracinė navigacija; veiksmų patikra |
 
+## Mėnesio tabelis
+
+Skiltyje „Tabeliai ir suvestinės“ pagrindinis vaizdas yra „Mėnesio tabelis“: darbuotojai pateikiami eilutėse, mėnesio dienos stulpeliuose. Mėnesį galima keisti rodyklėmis arba mėnesio pasirinkimu.
+
+- Viršutinis langelio skaičius – faktinės užbaigtų vizitų valandos. „p“ apačioje – visų tos dienos vizitų planas.
+- AT – atostogos, L – liga, N – kitas neatvykimas. Savaitgaliai ir šiandiena išskirti fono spalva.
+- „·“ – vizitų nėra; „–“ – yra planas, bet dar nėra užbaigtų vizitų; „●“ – vizitas vyksta.
+- Paspaudus dieną, atidaromi tik to darbuotojo tos dienos vizitai. Paspaudus darbuotojo vardą, atidaroma visų laikotarpio dienų išklotinė.
+- Darbuotojų vardai, mėnesio sumos ir lentelės antraštės išlieka matomi slenkant. Apačioje pateikiamos dienų ir mėnesio bendros sumos.
+- Pagal nutylėjimą rodomi darbuotojai su vizitais ar neatvykimais. „Rodyti ir be įrašų“ leidžia įtraukti visą sąrašą.
+- Ankstesnė bendra lentelė išsaugota skiltyje „Darbuotojų suvestinė“.
+- Nuokrypis = užbaigtų vizitų faktinės valandos minus TŲ PAČIŲ užbaigtų vizitų planinės valandos. Būsimi ir neužbaigti vizitai neįtraukiami į šį palyginimą. Tai nėra mėnesio darbo laiko normos trūkumo apskaičiavimas.
+- Mėnesio CSV turi atskiras darbuotojo fakto, plano ir neatvykimų eilutes bei stulpelius visoms mėnesio dienoms. Suvestinės eksportas atitinka pasirinktus filtrus.
+
 ## Demonstravimo ribos
 
 - Duomenys išsaugomi tik šios naršyklės localStorage. Nėra bendros kelių naudotojų serverio duomenų bazės.
